@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+:root {
+  --primary-gradient: linear-gradient(
+    to right,
+    rgba(79, 57, 246, 1) 0%,
+    rgba(149, 20, 250, 1) 100%
+  );
+}
+
+.gradient-bg {
+  background-image: var(--primary-gradient);
+}

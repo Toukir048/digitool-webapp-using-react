@@ -6,14 +6,18 @@ import Footer from './components/footer/Footer';
 import Stats from './components/stats/Stats';
 import Pricing from './components/pricing/Pricing';
 import Steps from './components/step/Steps';
+import { useState } from 'react';
+import AllProducts from './components/allProducts/AllProducts';
 
 function App() {
+  const [productCart, setProductCart] = useState([]);
   return (
 
     <div>
       <Navbar></Navbar>
       <Banner></Banner>
       <Stats></Stats>
+      <AllProducts productCart={productCart} setProductCart={setProductCart}></AllProducts>
       <Steps></Steps>
       <Pricing></Pricing>
       <Footer></Footer>
