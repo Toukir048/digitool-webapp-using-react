@@ -58,7 +58,7 @@ const plans = [
 const Pricing = () => {
     return (
         <section id="pricing" className="bg-gray-50 py-16 lg:py-20">
-            <div className="w-[80%] mx-auto px-6 lg:px-20">
+            <div className=" px-6 lg:px-20">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900">
                         Simple, Transparent Pricing
@@ -68,11 +68,11 @@ const Pricing = () => {
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-10  items-stretch ">
+                <div className="grid grid-cols-1 w-[90%] mx-auto md:grid-cols-3 gap-10 md:gap-10  items-stretch ">
                     {plans.map((plan, index) => (
                         <div
                             key={index}
-                            className={`relative flex flex-col rounded-2xl p-8 hover:shadow-xl ${plan.highlight
+                            className={`relative flex flex-col rounded-2xl p-8 w-[380px] hover:shadow-xl ${plan.highlight
                                     ? "text-white shadow-2xl scale-105 bg-linear-to-l from-[#9514FA] to-[#4F39F6]"
                                     : "bg-white border border-gray-200 shadow-sm"
                                 }`}

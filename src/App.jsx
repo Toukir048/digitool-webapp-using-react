@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Stats from './components/stats/Stats';
 import Pricing from './components/pricing/Pricing';
+import Steps from './components/step/Steps';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Stats></Stats>
+      <Steps></Steps>
       <Pricing></Pricing>
       <Footer></Footer>
       <ToastContainer />
