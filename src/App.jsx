@@ -1,14 +1,15 @@
 import './App.css'
 import { ToastContainer, toast } from 'react-toastify';
-import Navbar from './components/navbar/navbar';
 import Banner from './components/banner/Banner';
+import Navbar from './components/navbar/Navbar';
+
 function App() {
   return (
 
     <div>
-        <Navbar></Navbar>
-        <Banner></Banner>
-        <ToastContainer />
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <ToastContainer />
     </div>
   )
 }
