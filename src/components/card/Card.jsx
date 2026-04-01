@@ -5,9 +5,9 @@ import { toast } from 'react-toastify';
 
 const Card = ({ product, productCart, setProductCart }) => {
    
-
+const isAdded = productCart.some(item => item.id === product.id);
     const handleAddToCart = (product) => {
-        const isAdded = productCart.some(item => item.id === product.id);
+        
         if (isAdded) {
             toast("Product already added!");
             return;
