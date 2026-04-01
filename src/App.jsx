@@ -14,7 +14,7 @@ function App() {
   return (
 
     <div>
-      <Navbar></Navbar>
+      <Navbar productCart={productCart} ></Navbar>
       <Banner></Banner>
       <Stats></Stats>
       <AllProducts productCart={productCart} setProductCart={setProductCart}></AllProducts>
