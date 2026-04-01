@@ -32,18 +32,18 @@ const Banner = () => {
                 </div>
 
                 <div className="flex items-center gap-6 justify-center md:justify-start">
-                    <button className="text-sm font-semibold text-white px-5 py-2 rounded-full bg-gradient-to-r from-[#9514FA] to-[#4F39F6] transition duration-300 ease-in-outhover:scale-105 hover:shadow-lg hover:shadow-purple-500/40 active:scale-95">
+                    <button className="text-sm font-semibold text-white px-5 py-2 rounded-full bg-linear-to-r from-[#9514FA] to-[#4F39F6] transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-purple-500/40 active:scale-95">
                         Explore Products
                     </button>
 
-                    <div className="p-[1px] rounded-full bg-gradient-to-r from-purple-500 to-indigo-500 w-fit transition duration-300 hover:shadow-lg hover:shadow-purple-500/30">
-                        <button className="flex items-center gap-2 text-sm font-semibold px-3 py-[6px] rounded-full bg-white transition duration-300 hover:scale-105">
+                    <div className="p-px rounded-full bg-linear-to-r from-purple-500 to-indigo-500 w-fit transition duration-300 hover:shadow-lg hover:shadow-purple-500/30">
+                        <button className="flex items-center gap-2 text-sm font-semibold px-3 py-1.5 rounded-full bg-white transition duration-300 hover:scale-105 active:scale-95">
                             <img
                                 src={playBtnIcon}
                                 alt="Play button"
                                 className="transition duration-300 group-hover:scale-110"
                             />
-                            <span className="bg-gradient-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">
+                            <span className="bg-linear-to-r from-purple-500 to-indigo-500 bg-clip-text text-transparent">
                                 Watch Demo
                             </span>
                         </button>
